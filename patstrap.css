@@ -1,7 +1,7 @@
-/*
+/*****************************************
     Patstrap CSS by @patmood
     https://github.com/patmood/patstrap
-*/
+******************************************/
 body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
    font-weight: 300;
@@ -27,6 +27,28 @@ a:hover, a:focus {
   color: #005580;
   text-decoration: underline;
 }
+button {
+  background-color: #95a5a6;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  position: relative;
+  padding: 0.3em 1em;
+}
+button:hover { background-color: #7f8c8d; }
+button.primary { background-color: #3498db; }
+button.primary:hover { background-color: #2980b9; }
+button.success { background-color: #2ecc71; }
+button.success:hover { background-color: #27ae60; }
+button.warning { background-color: #f1c40f; }
+button.warning:hover{ background-color: #f39c12; }
+button.danger { background-color: #e74c3c; }
+button.danger:hover { background-color: #c0392b; }
+/* LAYOUT */
 .container {
   max-width: 600px;
   padding: 0 2em;
