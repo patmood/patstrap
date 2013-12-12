@@ -8,6 +8,13 @@ Link for your project:
 
 `<link rel="stylesheet" href="patmood.github.io/patstrap/patstrap.css">`
 
+## To Do:
+
+- Table styles
+- Convert to SASS
+- Add minified version
+
+
 ## Inspiration:
 [Interactive Guide to Blog Typography](http://www.kaikkonendesign.fi/typography/)
 [Flat Colors UI](http://flatuicolors.com/)

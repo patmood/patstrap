@@ -48,6 +48,7 @@ button.warning { background-color: #f1c40f; }
 button.warning:hover{ background-color: #f39c12; }
 button.danger { background-color: #e74c3c; }
 button.danger:hover { background-color: #c0392b; }
+
 /* LAYOUT */
 .container {
   max-width: 600px;
