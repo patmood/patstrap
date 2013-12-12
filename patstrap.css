@@ -15,6 +15,14 @@ p {
   font-size: 16px;
   color: #444;
 }
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+a:hover, a:focus {
+  color: #005580;
+  text-decoration: underline;
+}
 .container {
   max-width: 600px;
   padding: 0 2em;
