@@ -10,3 +10,4 @@ Link for your project:
 
 ## Inspiration:
 [Interactive Guide to Blog Typography](http://www.kaikkonendesign.fi/typography/)
+[Flat Colors UI](http://flatuicolors.com/)
