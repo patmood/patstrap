@@ -49,6 +49,28 @@ button.warning:hover{ background-color: #f39c12; }
 button.danger { background-color: #e74c3c; }
 button.danger:hover { background-color: #c0392b; }
 
+table {
+  border: solid 1px #bfbfbf;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+td, th {
+  margin: 0px;
+  padding: 0.5em;
+  border-left: solid 1px #bfbfbf;
+  border-bottom: solid 1px #bfbfbf;
+}
+td:first-child, th:first-child {
+  border-left: none;
+}
+tr:last-child td {
+  border-bottom: none;
+}
+
 /* LAYOUT */
 .container {
   max-width: 600px;
