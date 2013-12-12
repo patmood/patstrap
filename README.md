@@ -10,7 +10,9 @@ Link for your project:
 
 ## To Do:
 
-- Table styles
+- Code blocks
+- Inline code
+- Navbar
 - Convert to SASS
 - Add minified version
 
