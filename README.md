@@ -10,6 +10,7 @@ Link for your project:
 
 ## To Do:
 
+- Striped tables
 - Navbar
 - Convert to SASS
 - Add minified version
