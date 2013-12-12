@@ -50,7 +50,7 @@ button.danger { background-color: #e74c3c; }
 button.danger:hover { background-color: #c0392b; }
 
 table {
-  border: solid 1px #bfbfbf;
+  border: solid 1px #ddd;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -61,8 +61,8 @@ table {
 td, th {
   margin: 0px;
   padding: 0.5em;
-  border-left: solid 1px #bfbfbf;
-  border-bottom: solid 1px #bfbfbf;
+  border-left: solid 1px #ddd;
+  border-bottom: solid 1px #ddd;
 }
 td:first-child, th:first-child {
   border-left: none;
@@ -71,6 +71,27 @@ tr:last-child td {
   border-bottom: none;
 }
 
+code {
+  border: solid 1px #ddd;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  background-color: #f8f8f8;
+  margin: 0 2px;
+  padding: 0 5px;
+}
+
+pre {
+  border: solid 1px #ddd;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  background-color: #f8f8f8;
+}
+pre code {
+  border: none;
+  background: none;
+}
 /* LAYOUT */
 .container {
   max-width: 600px;

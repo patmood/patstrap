@@ -10,8 +10,6 @@ Link for your project:
 
 ## To Do:
 
-- Code blocks
-- Inline code
 - Navbar
 - Convert to SASS
 - Add minified version
