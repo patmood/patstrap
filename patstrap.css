@@ -8,11 +8,18 @@ body {
 }
 h1, h2, h3 {
   line-height: 1.1em;
+  letter-spacing: normal;
   color: #222;
 }
 h1 { font-weight: 900; }
-h2 { font-weight: 700; }
-h3 { font-weight: 500; }
+h2 {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+h3 {
+  letter-spacing: -0.02em;
+  font-weight: 500;
+}
 p {
   line-height: 1.5em;
   margin-bottom: 0px;
@@ -27,7 +34,7 @@ a:hover, a:focus {
   color: #005580;
   text-decoration: underline;
 }
-button {
+button, .button {
   background-color: #95a5a6;
   color: #fff;
   text-align: center;
@@ -39,15 +46,17 @@ button {
   position: relative;
   padding: 0.3em 1em;
 }
-button:hover { background-color: #7f8c8d; }
-button.primary { background-color: #3498db; }
-button.primary:hover { background-color: #2980b9; }
-button.success { background-color: #2ecc71; }
-button.success:hover { background-color: #27ae60; }
-button.warning { background-color: #f1c40f; }
-button.warning:hover{ background-color: #f39c12; }
-button.danger { background-color: #e74c3c; }
-button.danger:hover { background-color: #c0392b; }
+button:hover, .button:hover { background-color: #7f8c8d; }
+button.primary, .button.primary { background-color: #3498db; }
+button.primary:hover, .button.primary:hover { background-color: #2980b9; }
+button.success, .button.success { background-color: #2ecc71; }
+button.success:hover, .button.success:hover { background-color: #27ae60; }
+button.warning, .button.warning { background-color: #f1c40f; }
+button.warning:hover, .button.warning:hover { background-color: #f39c12; }
+button.danger, .button.danger { background-color: #e74c3c; }
+button.danger:hover, .button.danger:hover { background-color: #c0392b; }
+
+/* TABLES */
 
 table {
   border: solid 1px #ddd;
@@ -92,6 +101,23 @@ pre code {
   border: none;
   background: none;
 }
+
+/* FORMS */
+form {
+  margin-top: 20px;
+}
+
+label {
+  padding: 5px 0px 3px 0px;
+  display: block;
+}
+
+input, textarea {
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
 /* LAYOUT */
 .container {
   max-width: 600px;
